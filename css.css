@@ -1,0 +1,143 @@
+/* :root {
+
+} */
+
+body {
+    height: max-content;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+      opacity: 1;
+  
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+.appear {
+    animation: fade-in 2s;
+}
+
+.disappear {
+    animation: fade-out 0.5s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+
+    top: 50%;
+}
+
+.title-name { 
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -120%);
+
+    font-size: 12vw;
+}
+
+.Login-form {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, 0%);
+
+    font-size: 5vw;
+}
+
+.Login-form input, .Login-form button {
+    font-size: 0.5em;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, 330%);
+    font-size: 4vw;
+}
+
+.headright {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px;
+}
+
+.title-name2 {
+    font-size: 3rem;
+    margin: 5px 15px;
+    height: 80px;
+    line-height: 1.5em;
+}
+
+.greeting {
+    text-align: end;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.Logout-btn {
+    background-color: white;
+    border-radius: 5%;
+    height: max-content;
+}
+
+.Logout-btn:hover {
+    cursor: pointer;
+}
+
+.weather {
+    text-align: end;
+    line-height: 40px;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.control {
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+

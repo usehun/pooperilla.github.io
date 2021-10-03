@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>momentom</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet"><script defer src="greeting.js"></script>
+    <script defer src="todo.js"></script>
+    <script defer src="clock.js"></script>
+    <script defer src="weather.js"></script>
+    <script defer src="card.js"></script>
+    <script defer src="bgColor.js"></script>
+    <script defer src="control.js"></script>
+</head>
+<body >
+    <div class = "title hidden">
+        <h1 class = "title-name">Plan List</h1>
+        <form class = "Login-form">
+            <input class = "name" type="text" maxlength="10" required placeholder="What your name?">
+            <button class = "Login-btn">Log in</button>
+        </form>
+    
+        <div class="clock"></div>
+    </div>
+
+    <div class="content hidden">
+        <div class = "header">
+            <div class="headleft">
+                <h1 class="title-name2">
+                    Plan List
+                </h1>   
+            </div>
+    
+            <div class="headright">
+                <div class="account">            
+                    <div class="greeting hidden"></div>
+                    <button class="Logout-btn hidden">Log out</button>
+                </div>
+                
+                <div class="weather">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="control">
+            <div>Card Add</div>
+            <div>Card remove</div>
+        </div>
+
+        <div class="content">
+            <div class="world">
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="22" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="30" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="30" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="30" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="30" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card" data-flip = 'false'>
+                    <div class="card-side card-side-front">
+                        <div></div>
+                    </div>
+        
+                    <div class="card-side card-side-back">
+                        <div class = "daytitle"></div>
+                        <form class="todo-form">
+                            <input type="text" placeholder="list" maxlength="30" required>
+                        </form>
+                    
+                        <ul class="todo-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    
+</body>
+</html>
